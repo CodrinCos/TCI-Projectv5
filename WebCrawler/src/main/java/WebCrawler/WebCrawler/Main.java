@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException
     {
-        final WebCrawler crawler = new WebCrawler(new URL("http://www.emag.ro/"));
+        final WebCrawler crawler = new WebCrawler(new URL("http://i319728.hera.fhict.nl/catalog.php"));
     }
 
 }
