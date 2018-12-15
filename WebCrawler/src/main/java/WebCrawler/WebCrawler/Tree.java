@@ -11,5 +11,12 @@ public class Tree {
         return true;
     }
 
+   public boolean searchNode(Node node){
+        int i;
+        for (i=0;i<listNodes.size();i++)
+            if (listNodes.contains(node)) return true;
+        return false;
+   }
+
 }
 

@@ -14,8 +14,10 @@ import java.util.HashSet;
 public class WebCrawler {
     private final Set<URL> link;
     private final long startingTime;
+    private String bodyURL;
 
     public WebCrawler(final URL startURL){
+        this.bodyURL=startURL.toString();
         this.link = new HashSet<>();
         this.startingTime = System.currentTimeMillis();
         crawl(initURLS(startURL));
@@ -33,8 +35,11 @@ public class WebCrawler {
                     final Elements linksOnPage = document.select("a[href]");
                     for(final Element element : linksOnPage){
                         final String urlText = element.attr("abs:href");
-                        final URL discoveredURL = new URL(urlText);
-                        newURLS.add(discoveredURL);
+                        if (urlText.contains(bodyURL))
+                        {
+                            final URL discoveredURL = new URL(urlText);
+                            newURLS.add(discoveredURL);
+                        }
                     }
                 }
             }catch (final Exception | Error ignored){
