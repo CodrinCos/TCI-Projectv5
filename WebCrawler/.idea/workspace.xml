@@ -280,20 +280,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-<<<<<<< HEAD
-=======
-<<<<<<< refs/remotes/origin/master
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="width" value="2703" />
-    <option name="height" value="2082" />
-=======
->>>>>>> master
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1755" />
-    <option name="y" value="-18" />
-    <option name="width" value="1918" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
+    <option name="width" value="2705" />
+    <option name="height" value="2084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
