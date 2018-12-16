@@ -61,6 +61,7 @@ public class TreeTest {
         //assert
         Assert.assertEquals(ltest,t1.listNodes);
     }
+
     @Test
     public void dummyObjectTreeCheck(){
         Tree test = mock(Tree.class);
