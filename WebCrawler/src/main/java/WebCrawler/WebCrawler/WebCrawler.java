@@ -10,11 +10,19 @@ import java.util.Set;
 import java.util.Collections;
 import java.util.HashSet;
 
-
+/**
+ * This class is going to search each link from the web-site and further on the
+ * data it will be added in a tree.
+ */
 public class WebCrawler {
     private final Set<URL> link;
     private final long startingTime;
     private String bodyURL;
+    private Tree t;
+
+    public Tree getT() {
+        return t;
+    }
 
     public WebCrawler(final URL startURL){
         this.bodyURL=startURL.toString();
@@ -23,6 +31,10 @@ public class WebCrawler {
         crawl(initURLS(startURL));
     }
 
+    /**
+     * This method will search for each link in the website recursively
+     * @param urls
+     */
     private void crawl(final Set<URL> urls){
         urls.removeAll((this.link));
         if(!urls.isEmpty()){
