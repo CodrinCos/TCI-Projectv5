@@ -19,8 +19,10 @@ import static org.mockito.Mockito.when;
 public class MainTest {
     @Test
     public void checkIfMainWorksUsingMockObjects () throws IOException {
+        //act
         interfaceModel.Main main1 = mock(Main.class);
         main1.main(new String[]{ "asd"});
+        //verify
         verify(main1).main(new String[]{ "asd"});
     }
 //    when(movie.getDirector()).thenReturn("The director of this movie is" + director);

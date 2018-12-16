@@ -11,8 +11,10 @@ import static org.mockito.Mockito.verify;
 public class DummyWebCrawlerTest{
    @Test
    public void checkTreeIfWorksWithMockObject(){
+       //act
        WebCrawler testCrawler = mock(WebCrawler.class);
        testCrawler.getT();
+       //verify
        verify(testCrawler).getT();
    }
 }

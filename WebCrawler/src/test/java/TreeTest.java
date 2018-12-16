@@ -16,6 +16,7 @@ public class TreeTest {
     Node node;
     @Before
     public void SetUp() {
+        //arrange
         node = mock(Node.class);
     }
     @Test
@@ -34,6 +35,9 @@ public class TreeTest {
         Assert.assertEquals(t1.getRoot(),n1);
     }
 
+    /**
+     * 6 input test
+     */
     @Test
     public void checkIfFindsANodeInTreeTest(){
         //arrange
@@ -67,9 +71,12 @@ public class TreeTest {
     }
     @Test
     public void dummyObjectTreeCheck(){
+        //arrange
         Tree test = mock(Tree.class);
+        //act
         Node testnode = new Node();
         test.setRoot(testnode);
+        //verify
         when (test.getRoot()).thenReturn(testnode);
         when(test.getRoot()).thenThrow(new RuntimeException());
     }
