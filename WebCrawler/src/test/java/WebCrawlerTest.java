@@ -7,6 +7,11 @@ import static org.junit.Assert.*;
 
 public class WebCrawlerTest {
 
+
+    /**
+     * Insert a new node with a link,
+     * check if the node has a parent.
+     */
     @Test
     public void nodeParentCheck(){
         //arrange

@@ -1,7 +1,10 @@
 package WebCrawler.WebCrawler;
 
 public class Node {
-    //Common field from the MoviesNode,MusicNode,BooksNode
+    /**
+     * Common field from the MoviesNode,MusicNode,BooksNode
+     */
+
     private Node parent;
     private String link;
     private String category;
