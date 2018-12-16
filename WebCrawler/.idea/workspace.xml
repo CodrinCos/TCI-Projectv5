@@ -6,6 +6,15 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/DummyWebCrawlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DummyWebCrawlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TreeTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/Tree.java" afterDir="false" />
+>>>>>>> added node classes and inheritence between them
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebCrawlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebCrawlerTest.java" afterDir="false" />
+>>>>>>> added 1 test
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +25,6 @@
     <SUITE FILE_PATH="coverage/WebCrawler$Main.ic" NAME="Main Coverage Results" MODIFIED="1544973435157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>WebCrawler.WebCrawler.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/WebCrawler$WebCrawler__dependencies_.ic" NAME="WebCrawler [dependencies] Coverage Results" MODIFIED="1544288709483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="104" />
@@ -51,6 +59,44 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="511" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="203022914">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2565" />
+          <entry key="PLAIN_TEXT" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="203022914">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2565" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
     </session>
@@ -107,6 +153,21 @@
                 <element signature="e#466#467#0" expanded="true" />
                 <element signature="e#493#494#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/ConstructJson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+>>>>>>> added node classes and inheritence between them
             </state>
           </provider>
         </entry>
@@ -130,6 +191,18 @@
                 <element signature="e#548#549#0" expanded="true" />
                 <element signature="e#572#573#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/MoviesNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< refs/remotes/origin/master
+            <state relative-caret-position="119">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+>>>>>>> added node classes and inheritence between them
+=======
+            <state relative-caret-position="204">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+>>>>>>> added 1 test
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -151,6 +224,10 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+>>>>>>> added 1 test
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -203,18 +280,42 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< refs/remotes/origin/master
   <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
     <option name="width" value="2703" />
     <option name="height" value="2082" />
+=======
+>>>>>>> master
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1755" />
+    <option name="y" value="-18" />
+    <option name="width" value="1918" />
+    <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+<<<<<<< HEAD
+=======
+>>>>>>> added node classes and inheritence between them
+>>>>>>> master
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+=======
+<<<<<<< refs/remotes/origin/master
+=======
+      <pane id="PackagesPane" />
+>>>>>>> added node classes and inheritence between them
+>>>>>>> master
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,7 +374,13 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+<<<<<<< refs/remotes/origin/master
       <pane id="PackagesPane" />
+=======
+>>>>>>> added node classes and inheritence between them
+>>>>>>> master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,7 +450,15 @@
       <workItem from="1544623629084" duration="2344000" />
       <workItem from="1544786546838" duration="9000" />
       <workItem from="1544789455158" duration="5554000" />
+<<<<<<< HEAD
+      <workItem from="1544878268537" duration="4848000" />
+=======
+<<<<<<< refs/remotes/origin/master
       <workItem from="1544877684973" duration="18681000" />
+=======
+      <workItem from="1544878268537" duration="4848000" />
+>>>>>>> added node classes and inheritence between them
+>>>>>>> master
     </task>
     <servers />
   </component>
@@ -367,8 +482,22 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+=======
+<<<<<<< refs/remotes/origin/master
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914573" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32788944" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+<<<<<<< refs/remotes/origin/master
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
+>>>>>>> added node classes and inheritence between them
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+>>>>>>> added 1 test
+>>>>>>> master
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,7 +505,15 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+=======
+<<<<<<< refs/remotes/origin/master
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32914573" />
+=======
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+>>>>>>> added 1 test
+>>>>>>> master
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -419,6 +556,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/API.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< refs/remotes/origin/master
+    <entry file="file://$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/GoInTree.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
@@ -432,6 +577,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/SearchPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+>>>>>>> added node classes and inheritence between them
         </state>
       </provider>
     </entry>
@@ -520,6 +673,80 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+>>>>>>> added 1 test
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/MoviesNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/BooksNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebCrawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WebCrawler/WebCrawler/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< refs/remotes/origin/master
+        <state relative-caret-position="340">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+>>>>>>> added node classes and inheritence between them
+=======
+        <state relative-caret-position="459">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+          </folding>
+>>>>>>> added 1 test
         </state>
       </provider>
     </entry>
