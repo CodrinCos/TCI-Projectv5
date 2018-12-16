@@ -2,6 +2,7 @@ import WebCrawler.WebCrawler.Node;
 import WebCrawler.WebCrawler.Tree;
 import interfaceModel.WebCrawler;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
@@ -12,13 +13,16 @@ import static org.mockito.Mockito.when;
 
 public class TreeTest {
 
-    Node node = mock(Node.class);
-
+    Node node;
+    @Before
+    public void SetUp() {
+        node = mock(Node.class);
+    }
     @Test
     public void checkInstanceOf(){
         assertTrue(node instanceof Node);
     }
-    //test with inputs and outputs
+    //test with inputs and outputs in tree for root
     @Test
     public void setRootInTreeTest(){
         //arrange

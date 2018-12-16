@@ -1,5 +1,8 @@
 package WebCrawler.WebCrawler;
 
+/**
+ * This class represents the nodes from the tree.
+ */
 public class Node {
     private Node parent;
     private String category;
