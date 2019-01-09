@@ -12,13 +12,14 @@ import static org.mockito.Mockito.when;
 public class BooksNodeTest {
 
     /**
+     * Tudor
      * Verifies the get methods if they return the passed values
      */
     @Test
     public void testFilledConstructorNodeBooks(){
         //arrange
-        Node mockNode = new BooksNode("tudor", "tudor", 1, new Node(), "mockLink", "category", "mochName",
-                "action", "ereader", 1997);
+        Node mockNode = new BooksNode("tudor", "tudor", 1, new Node(), "mockLink",
+                "category", "mochName", "action", "ereader", 1997);
         //act
         //assert
         Assert.assertEquals(((BooksNode) mockNode).getAuthors(), "tudor");
@@ -35,6 +36,7 @@ public class BooksNodeTest {
     }
 
     /**
+     * Tudor
      * 'Mock asserts'
      * Creates a mock Book class and verify the set methods
      * if they have been invoked with the same parameter
@@ -58,6 +60,7 @@ public class BooksNodeTest {
 
 
     /**
+     * Tudor
      * Verifies if the Book returns the intended parameter
      */
     @Test

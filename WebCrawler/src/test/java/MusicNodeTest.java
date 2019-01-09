@@ -11,12 +11,14 @@ import static org.mockito.Mockito.when;
 public class MusicNodeTest {
 
     /**
+     * Tudor
      * Verifies the get methods if they return the passed values
      */
     @Test
     public void testFilledConstructorNodeMusic(){
         //arrange
-        Node mockNode = new MusicNode("tudor",new Node(),"link2","category","mochName","rock","mp3",2007);
+        Node mockNode = new MusicNode("tudor",new Node(),"link2","category",
+                                    "mochName","rock","mp3",2007);
         //act
         //assert
         Assert.assertEquals(((MusicNode) mockNode).getArtist(), "tudor");
@@ -31,6 +33,7 @@ public class MusicNodeTest {
     }
 
     /**
+     * Tudor
      * 'Mock asserts'
      * Creates a mock Music class and verify the set methods
      * if they have been invoked with the same parameter
@@ -49,6 +52,7 @@ public class MusicNodeTest {
 
 
     /**
+     * Tudor
      * Verifies if the Movie returns the intended parameter
      */
     @Test
