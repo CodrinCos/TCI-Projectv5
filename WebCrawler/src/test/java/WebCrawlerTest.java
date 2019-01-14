@@ -1,10 +1,6 @@
-import WebCrawler.WebCrawler.MoviesNode;
-import WebCrawler.WebCrawler.BooksNode;
-import WebCrawler.WebCrawler.MusicNode;
-import WebCrawler.WebCrawler.Node;
+import Tree.Node;
 import org.junit.Assert;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 
 public class WebCrawlerTest {

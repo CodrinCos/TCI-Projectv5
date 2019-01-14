@@ -1,8 +1,6 @@
 package interfaceModel;
 
-import WebCrawler.WebCrawler.Node;
-
-import java.util.ArrayList;
+import  Tree.Node;
 
 public interface Tree {
      void setRoot(Node root);

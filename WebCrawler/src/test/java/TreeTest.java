@@ -1,6 +1,5 @@
-import WebCrawler.WebCrawler.Node;
-import WebCrawler.WebCrawler.Tree;
-import interfaceModel.WebCrawler;
+import Tree.Node;
+import Tree.Tree;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -69,6 +68,7 @@ public class TreeTest {
         //assert
         Assert.assertEquals(ltest,t1.listNodes);
     }
+
     @Test
     public void dummyObjectTreeCheck(){
         //arrange
