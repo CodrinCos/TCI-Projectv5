@@ -1,14 +1,8 @@
 package interfaceModel;
 
-import WebCrawler.WebCrawler.Tree;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import Tree.Tree;
 
 import java.net.URL;
-import java.util.Collections;
-import java.util.HashSet;
 import java.util.Set;
 
 public interface WebCrawler {
